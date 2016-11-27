@@ -13,55 +13,56 @@
 
 - [入门](#入门)
 - [历史](#历史)
-- [创建 React 项目](#creating-a-react-project)
-- [为什么使用 React?](#why-use-react)
+- [创建 React 项目](#创建-react-项目)
+- [为什么使用 React?](#为什么使用-react)
 - [JSX](#jsx)
-- [虚拟 DOM](#the-virtual-dom)
-- [React elements](#react-elements)
-- [组件](#components)
-- [方法生命周期](#lifecycle-methods)
-- [组件类型](#component-types)
-- [查找组件](#finding-components)
-- [Props](#props)
-- [PropTypes](#proptypes)
-- [状态](#state)
+- [虚拟 DOM](#虚拟-dom)
+- [React 元素](#react-元素)
+- [组件](#组件)
+- [方法生命周期](#方法生命周期)
+- [组件类型](#组件类型)
+- [查找组件](#查找组件)
+- [属性](#属性)
+- [属性类型](#属性类型)
+- [状态](#状态)
 - [Children API](#children-api)
-- [绑定](#binding)
-- [事件](#events)
-- [Rendering](#rendering)
+- [绑定](#绑定)
+- [事件](#事件)
+- [渲染](#渲染)
 - [Keys](#keys)
 - [Refs](#refs)
-- [上下文](#context)
-- [表单](#forms)
-- [Controlled Components](#controlled-components)
+- [Context](#context)
+- [表单](#表单)
+- [控制组件](#控制组件)
 - [React Ajax](#react-ajax)
-- [模式](#patterns)
+- [模式](#模式)
 - [Gotchas](#gotchas)
 - [PATENTS](#patents)
 - [Mixins](#mixins)
-- [国际化](#internationalization)
-- [性能](#performance)
-- [动画](#animations)
+- [国际化](#国际化)
+- [第三方库](#第三方库)
+- [性能](#性能)
+- [动画](#动画)
 - [SVG & React](#svg--react)
 - [React Style Guides](#react-style-guides)
 - [Redux 和 Mobx](#redux-and-mobx)
-- [将 React 添加到现有项目中](#adding-react-to-an-existing-app)
-- [CSS 和 React](#css-and-react)
-- [测试](#testing)
-- [讨论/会议视频](#conference-videos)
-- [为 React JS 贡献代码](#contributing-to-react-js)
-- [核心注释](#core-notes)
-- [通用的 React](#universal-react)
+- [将 React 添加到现有 APP 中](#将-react-添加到现有-app-中)
+- [CSS 和 React](#css-和-react)
+- [测试](#测试)
+- [讨论/会议视频](#讨论/会议视频)
+- [为 React JS 贡献代码](#为-react-js-贡献代码)
+- [核心注释](#核心注释)
+- [通用的 React](#通用的-react)
 - [Deep Dive](#deep-dive)
 - [React Fiber](#react-fiber)
-- [视频课程](#video-courses)
+- [视频课程](#视频课程)
 - [A11Y](#a11y)
-- [讨论](#talks)
-- [练习](#training)
+- [讨论](#讨论)
+- [练习](#练习)
 - [书籍](#书籍)
 - [Newsletters](#newsletters)
 - [Interview Questions](#interview-questions)
-- [工具](#tools)
+- [工具](#工具)
 
 # 入门
 
@@ -116,7 +117,8 @@
 * [7 Strengths of React Every Programmer Should Know About](https://vacuumlabs.com/blog/7-strengths-of-react-every-programmer-should-know-about) Samuel Hapák @samuha
 * [Design Principles](https://facebook.github.io/react/contributing/design-principles.html)
 
-#JSX
+# JSX
+
 **What's JSX?**
 
 >JSX is a preprocessor step that adds XML syntax to JavaScript. You can definitely use React without JSX but JSX makes React a lot more elegant. - http://buildwithreact.com
@@ -130,7 +132,7 @@
 
 [This is the sort of stuff JSX saves you from having to manage](https://gist.github.com/insin/8e72bed793772d82ca8d) Jonny Buchanan ‏@jbscript
 
-#The Virtual DOM
+# 虚拟 DOM
 
 >The Virtual DOM provides a lightweight implementation of the DOM and events system. Instead of dealing with the browser, you manipulate an in-memory version of the DOM.
 
@@ -160,7 +162,8 @@ https://twitter.com/acdlite/status/779693791607336960
 
 > React keeps your product reasonably fast without you having to think about it all the time, or to jump through the hoops **@dan_abramov**
 
-#React elements
+# React 元素
+
 > Elements are the smallest building blocks of React apps.
 > Elements are what components are "made of ..."
 — [React Docs](https://facebook.github.io/react/docs/rendering-elements.html)
@@ -168,7 +171,8 @@ https://twitter.com/acdlite/status/779693791607336960
 * [What makes an 'Element' an 'Element' vs a component?](https://twitter.com/timarney/status/790540834466701312) Tim Arney @timarney
 * [Understanding the Difference Between React Elements and Components](https://quickleft.com/blog/understanding-the-difference-between-react-elements-and-components) Alex Johnson
 
-#Components
+# 组件
+
 > Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. - [React Docs](https://facebook.github.io/react/docs/components-and-props.html)
 
 **What are some of your best practices when working with components?**
@@ -184,7 +188,7 @@ https://twitter.com/acdlite/status/779693791607336960
 
 See :  https://twitter.com/mxstbr/status/790084862954864640 Max Stoiber @mxstbr
 
-#Lifecycle Methods
+# 方法生命周期
 
 >Components have several "lifecycle methods" that allow you to override / run code at particular times.
 
@@ -196,7 +200,7 @@ See :  https://twitter.com/mxstbr/status/790084862954864640 Max Stoiber @mxstbr
 * [My #reactjs component lifecycle cheatsheet for quick reference](https://twitter.com/pbesh/status/738008776805060608) Peter Beshai @pbesh
 * [React component’s lifecycle](https://medium.com/react-ecosystem/react-components-lifecycle-ce09239010df#.w7v5cw6tk) Osmel Mora @osmel_mora
 
-#Component Types
+# 组件类型
 > There are two main types of components Functional and Class Components
 
 ```
@@ -257,14 +261,14 @@ Also:
 
 * [React Component Jargon as of August 2016](https://blog.anthonycomito.com/react-component-jargon-as-of-august-2016-28451d8ceb1d#.a417p5u26) Anthony Comito @a_comito
 
-#Finding Components
+# 查找组件
 
 **Where are some good places to find components?**
 
 * [React Components Catalog](https://github.com/brillout/awesome-react-components)
 * [React Rocks](https://react.rocks)
 
-#Props
+# 属性
 
 **What are props?**
 >props (short for properties) are a Component's configuration, its options if you may. They are received from above and immutable as far as the Component receiving them is concerned. - react-guide
@@ -283,7 +287,7 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 
 * [Differences between require() and passing an object via prop or context](http://stackoverflow.com/questions/39111775/differences-between-require-and-passing-an-object-via-prop-or-context/39111942) Dan Abramov @dan_abramov
 
-#PropTypes
+# 属性类型
 
 >PropTypes are essentially a dictionary where you define what props your component needs and what type(s) they should be. -  Niels Gerritsen
 
@@ -296,7 +300,7 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 **How do I validate props?**
 * [Better Prop Validation in React](https://medium.com/@MoeSattler/better-prop-validation-in-react-cc83590d311f#.wdhbsrlgj) Moe Sattler @travelperk
 
-#State
+# 状态
 
 > In one sense, “state” means the current visual representation of the app on screen... In the React sense, “state” is an object that represents the parts of the app that can change. Each component can maintain its own state, which lives in an object called this.state. - Dave Ceddia
 
@@ -319,11 +323,11 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 
 * [How to decouple state and UI](https://medium.com/@mweststrate/how-to-decouple-state-and-ui-a-k-a-you-dont-need-componentwillmount-cc90b787aa37#.7l8ji1wer) Michel Weststrate @mweststrate
 
-#Children API
+# Children API
 
 * [ReactCasts #3 - React's Children API](https://www.youtube.com/watch?v=DJ53-G8EbxE) Cassio Zen @cassiozen
 
-#Binding
+# 绑定
 >The JavaScript bind method has several uses. Typically, it is used to preserve execution context for a function that executes in another context.
 
 **What should you use for binding methods in React classes?**
@@ -336,19 +340,19 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 * [5 Approaches for Handling Binding](https://medium.com/@housecor/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56#.4z71l0kmb) Cory House @housecor
 * [How to Deal with `this` Reference Inside the Promise?](https://www.toptal.com/react/tips-and-practices) Toptal Developers
 
-#Events
+# 事件
 
 **How does the event system work in React?**
 
 * [React events in depth](https://www.youtube.com/watch?v=dRo_egw7tBc) Kent C. Dodds, Ben Alpert, & Dan Abramov
 
-#Rendering
+# 渲染/呈现
 
 **What should go in the render function?**
 
 * [Return as soon as you know the answer](https://medium.com/@SimonRadionov/return-as-soon-as-you-know-the-answer-dec6369b9b67#.82kxymyki) @SimonRadionov
 
-#Keys
+# Keys
 >React uses [keys](https://facebook.github.io/react/docs/reconciliation.html#keys) to help with Reconciliation (i.e. how it calculates the DOM diff for each render).
 
 ```
@@ -370,7 +374,8 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 
 * [The key is using key](https://twitter.com/timarney/status/730785238654287873) Tim Arney @timarney
 
-#Refs
+# Refs
+
 >The ref attribute makes it possible to store a reference to a particular React element or component returned by the component render() configuration function. This can be valuable when you need a reference, from within a component, to some element or component contained within the render() function. - reactenlightenment.com
 
 **What are refs and are string refs are bad?**
@@ -379,7 +384,8 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 * [Why do you use findDOMNode()?](https://twitter.com/dan_abramov/status/752936646602031104) Dan Abramov @dan_abramov
 * [String refs are bad in quite a few ways](https://news.ycombinator.com/edit?id=12093234) Dan Abramov @dan_abramov
 
-#Context
+# Context
+
 ⚠️ Context is an **advanced and experimental** feature. The API is likely to change in future releases. The rumours of its existence are true but be careful!
 
 * [ReactCasts #4 - Context (Part 1)](https://www.youtube.com/watch?v=lxq938kqIss&t=1s) Cassio Zen @cassiozen
@@ -388,7 +394,7 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 * [How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076#.m6v9tsgub) Michel Weststrate @mweststrate
 * [Context all the things with React](https://www.youtube.com/watch?v=k9AhBMwj1w4) Stephen Rivas Jr. (@sprjrx)
 
-#Forms
+# 表单
 
 **How can I build forms with React?**
 
@@ -399,8 +405,7 @@ See : [props vs state](https://github.com/uberVU/react-guide/blob/master/props-v
 * [Building validated forms with great UX in React](https://youtu.be/1Urj4TZ5BLI?t=2437) Marcela Hrdá
 * [react-validation](https://github.com/vacuumlabs/react-validation)
 
-
-#Controlled Components
+# 控制组件
 
 **What is a controlled component?**
 
@@ -421,33 +426,33 @@ Via Loren Stewart @lorenstewart111 [React.js Forms: Controlled Components](http:
 
 * [Loading and Using External Data in React](http://mediatemple.net/blog/tips/loading-and-using-external-data-in-react) Chris Coyier @chriscoyier
 
-#Patterns
+# 模式
 
 * [React Patterns](http://reactpatterns.com) @chantastic
 * [React.js in patterns](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns) Krasimir Tsonev
 * [Patterns For Style Composition In React](http://jxnblk.com/writing/posts/patterns-for-style-composition-in-react) Brent Jackson @jxnblk
 * [Make Your React Components Pretty](https://medium.com/walmartlabs/make-your-react-components-pretty-a1ae4ec0f56e#.ctwfvx379) Mark Brouch @markbrouch
 
-#Gotchas
+# Gotchas
 
 **What are some React Gotchas?**
 
 * [React Gotchas](https://daveceddia.com/react-gotchas) Dave Ceddia
 
-#PATENTS
+# PATENTS
 
 **What's all this stuff I hear about Facebook PATENTS clause?**
 
 * [Some links to point people to when they misinterpret PATENTS clause or spread false claims](https://gist.github.com/gaearon/df0c4025e67399af72786d7ac7c819cc) Dan Abramov @dan_abramov
 * [React’s license: necessary and open?](http://lu.is/blog/2016/10/31/reacts-license-necessary-and-open) Luis Villa @luis_in_140
 
-#Mixins
+# Mixins
 
 **Why are Mixins Considered Harmful?**
 
 * [Mixins Considered Harmful](https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html) Dan Abramov @dan_abramov
 
-#Internationalization
+# 国际化
 
 **How should I handle internationalization?**
 
@@ -457,13 +462,13 @@ Via Loren Stewart @lorenstewart111 [React.js Forms: Controlled Components](http:
 * [react-intl](https://github.com/yahoo/react-intl)
 * [react-localize](https://github.com/sprjr/react-localize) @sprjrx
 
-#Third Party Libraries
+# 第三方库
 
 **How do I use third party libraries?**
 
 * [Integration with Third Party Libraries](https://www.youtube.com/watch?v=GWVjMHDKSfU&feature=youtu.be&a) Rally Coding
 
-#Performance
+# 性能
 
 **How can I make my app faster?**
 
@@ -474,7 +479,7 @@ Via Loren Stewart @lorenstewart111 [React.js Forms: Controlled Components](http:
 * [Reconciliation](https://facebook.github.io/react/docs/reconciliation.html)
 * [Quick slides on #reactjs performance](http://presentations.survivejs.com/react-performance/#/?_k=ivqhoe) Juho Vepsäläinen @bebraw
 
-#Animations
+# 动画
 
 **How do I animate things in React?**
 
@@ -499,22 +504,21 @@ Via Loren Stewart @lorenstewart111 [React.js Forms: Controlled Components](http:
 * [state-transitions](https://github.com/jacobp100/state-transitions)
 * [react-tween](https://github.com/clari/react-tween)
 
-#SVG & React
+# SVG & React
 
 **How do I work with SVG's in React?**
 
 * [Icons as React Components](https://medium.com/@david.gilbertson/icons-as-react-components-de3e33cb8792#.lmbz3v9ic)
 * [Creating an SVG Icon System with React](https://css-tricks.com/creating-svg-icon-system-react) @sarah_edo
 
-#React Style Guides
+# React Style Guides
 
 **Where can I find some good React  style guides?**
 
 * [Eventbrite React & JSX Coding Style Guide](https://github.com/eventbrite/javascript/tree/master/react)
 * [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
 
-
-#Redux and Mobx
+# Redux 和 Mobx
 
 **What's (Redux/Mobx)?**
 
@@ -531,7 +535,7 @@ A
 * [About folder structure, styling, data fetching, etc.](https://www.smashingmagazine.com/2016/09/how-to-scale-react-applications/) Max Stoiber @mxstbr
 * [How to choose between Redux's store and React's state?](https://github.com/reactjs/redux/issues/1287)
 
-#Adding React to an existing app
+# 将 React 添加到现有 APP 中
 
 **How do I start adding React to an existing app?**
 
@@ -539,7 +543,7 @@ A
 * [Don't Rewrite, React!](https://www.youtube.com/watch?v=BF58ZJ1ZQxY) Ryan Florence
 * [Migrating Safely to React](https://www.youtube.com/watch?v=sXDZBxbRRag&list=PLNBNS7NRGKMG3uLrm5fgY02hJ87Wzb4IU&index=1) Jamis Charles
 
-#CSS and React
+# CSS 和 React
 
 **What about styling things in React?**
 
@@ -547,12 +551,10 @@ You can use plain CSS or any preprocessor (Sass, Less etc...) with React.  React
 
 > Using CSS to style our React content is actually as straightforward as you can imagine it to be. Because React ends up spitting out regular HTML tags, all of the various CSS tricks you've learned over the years to style HTML still apply. -  kirupa
 
-
 * [What to use for React styling? ](http://andrewhfarmer.com/how-to-style-react) Andrew H Farmer
 * [Styling React](http://survivejs.com/react/advanced-techniques/styling-react) survivejs.com
 * [Styling in React](https://www.kirupa.com/react/styling_in_react.htm) kirupa
 * [Styling React Components in JavaScript](https://www.youtube.com/watch?v=0aBv8dsZs84) Michael Chan
-
 
 **What about using Bootstrap with React?**
 * [React-Bootstrap](https://react-bootstrap.github.io) - Bootstrap 3 components built with React
@@ -599,41 +601,43 @@ Note: Also see - [Styled components or Glamor?](https://www.reddit.com/r/reactjs
 * [Reusable React Component with Overridable Inline CSS Styles](http://staxmanade.com/2016/06/reusable-react-component-with-overridable-inline-css-styles/)
 
 
-#Testing
+# 测试
 
 * [Testing React Applications](https://www.youtube.com/watch?v=eWN8F_WOBAQ) Jack Franklin
 * [People seem to laugh at this but I think it’s actually pretty reasonable](https://twitter.com/dan_abramov/status/762257231471579136) Dan Abramov @dan_abramov
 * [Worthwhile Testing: What to test in a React app (and why)](https://daveceddia.com/what-to-test-in-react-app)  Dave Ceddia @dceddia
 * [Getting Started with TDD in React](https://daveceddia.com/getting-started-with-tdd-in-react)  Dave Ceddia @dceddia
 
-#Conference Videos
+# 讨论/会议视频
+
 * [React.js Conf 2016](https://www.youtube.com/watch?v=MGuKhcnrqGA&list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY)
 * [ReactEurope](https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A)
 * [ReactRally](https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw)
 
-#Contributing to React JS
+# 为 React JS 贡献代码
 
 **Where can I learn about Contributing to React JS?**
 
 * [Contributing to React JS](https://www.youtube.com/watch?v=wUpPsEcGsg8) Kent C. Dodds
 
-#Core Notes
+# 核心注释
 
 **Where can I find out what's going on with React / Upcoming versions?**
 * [core-notes](https://github.com/reactjs/core-notes/)
 
-#Universal React
+# 通用的 React
 
 * [React on the Server for Beginners](https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app) Luciano Mammino @loige
 
-#Deep Dive
+# Deep Dive
+
 * [Implementation Notes - How React Really Works](https://facebook.github.io/react/contributing/implementation-notes.html) Dan Abramov @dan_abramov
 * [Building React From Scratch](https://www.youtube.com/watch?v=_MAD4Oly9yg) Paul O'Shannessy @zpao
 * [React Architecture – OSCON](http://blog.vjeux.com/2014/javascript/react-architecture-oscon.html) Christopher Chedeau @vjeux
 * [ReactJS: Under The Hood](https://www.youtube.com/watch?v=xsKYAa1ZXpQ) Boris Dinkevich @BorisDinkevich
 * [REACT INTERNALS](https://zackargyle.github.io/react-internals-slides/#/?_k=7f19z9) Zack Argyle @ZackArgyle
 
-#React Fiber
+# React Fiber
 
 **What is React Fiber?**
 
@@ -646,7 +650,7 @@ Note: Also see - [Styled components or Glamor?](https://www.reddit.com/r/reactjs
 **How can I contribute to Fiber?**
 * [Fiber Principles: Contributing To Fiber](https://github.com/facebook/react/issues/7942)
 
-#Video Courses
+# 视频课程
 
 **What are some good video resources/courses to learn React?**
 
@@ -672,11 +676,12 @@ Note: Also see - [Styled components or Glamor?](https://www.reddit.com/r/reactjs
 * [Excerpt from React.js Conf 2015 - Hype!](https://www.youtube.com/watch?v=z5e7kWSHWTg#t=631) Ryan Florence
 * [Bringing the Web Back to the Blind by Ryan Florence ](https://www.youtube.com/watch?v=YuzS-g6Qvq8) *Note:* not specific to React
 
-#Talks
+# 讨论
+
 * [React to the Future - Slide Deck](http://elijahmanor.com/talks/react-to-the-future/dist) Elijah Manor @elijahmanor
 * [React Things - PDF Slides](https://react.rocks/blog/images/React_Intro_sept_2016.pdf) Jeff Winkler @winkler1
 
-#Training
+# 练习
 
 **Where can I get React training?**
 <hr>
@@ -692,7 +697,7 @@ Note: Also see - [Styled components or Glamor?](https://www.reddit.com/r/reactjs
 * https://btholt.github.io/complete-intro-to-react
 * https://github.com/btholt/react-redux-workshop
 
-#Books
+# 书籍
 
 **Where can I find some good books about React?**
 
@@ -701,7 +706,7 @@ Note: Also see - [Styled components or Glamor?](https://www.reddit.com/r/reactjs
 * [SurviveJS React](http://survivejs.com/react/introduction)
 * [Fullstack React](https://www.fullstackreact.com)
 
-#Newsletters
+# Newsletters
 
 **Where can I find React specific newsletters?**
 
@@ -719,7 +724,7 @@ Note: Also see - [Styled components or Glamor?](https://www.reddit.com/r/reactjs
 * [5 Essential React.js Interview Questions](https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions)
 * [The Vital Guide to React.js Interviewing](https://chandanpandey.com/2016/10/27/the-vital-guide-to-react-js-interviewing)
 
-#Tools
+# 工具
 
 * [StoryBook](https://getstorybook.io/)  (A visual way to develop your UI components. Show them in different states and develop them interactively).  `See` [Example StoryBook](http://airbnb.io/react-dates/) +  [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79#.fcah86vcb)
 * [React Developer Tools](https://facebook.github.io/react/blog/2015/09/02/new-react-developer-tools.html)
