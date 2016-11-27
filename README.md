@@ -2,7 +2,7 @@
 
 本指南的目的是把关于 React 核心概念的优质内容集中起来，以便快速参考。
 
-请保持学习的心态。 阅读，尝试，搞乱（没关系）。
+请保持学习的心态。 阅读，尝试，乱搞（没关系）。
 
 ### 其它语言
 
@@ -67,14 +67,15 @@
 # 入门
 
 **零基础，之前没有听说过 React?**
-* [Official React Docs](https://facebook.github.io/react/docs/hello-world.html)
+
+* [React 官方文档](https://facebook.github.io/react/docs/hello-world.html)
 * [Thinking in React - Pete Hunt](https://facebook.github.io/react/docs/thinking-in-react.html)
 * [Pete Hunt: React: Rethinking best practices (JSConf EU 2013)](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
 * 🔥 [All the terrible things I did the first time I wrote a complex React App ](https://youtu.be/Fk--XUEorvc?t=20666) Raquel @raquelxmoss
 * [Teaching React Without Using React](https://medium.com/@ericclemmons/teaching-react-without-using-react-a4b87cfd4e87#.q8cyvryw1) Eric Clemmons @ericclemmons
-* [React in 7 Minutes](https://egghead.io/lessons/react-react-in-7-minutes) this is a slightly dated but still really good starter
-* [Introduction to React](https://mva.microsoft.com/en-US/training-courses/introduction-to-react-16635?l=4wrKgdJrC_206218965) Eric W. Greene / Microsoft Virtual Academy
-* [Complete Intro to React - React, Webpack, Babel, Redux, React Router, SSR](https://btholt.github.io/complete-intro-to-react/) Brian Holt(@holtbt) for Frontend Masters worshop
+* [7 分钟学习 React](https://egghead.io/lessons/react-react-in-7-minutes) this is a slightly dated but still really good starter
+* [React 介绍](https://mva.microsoft.com/en-US/training-courses/introduction-to-react-16635?l=4wrKgdJrC_206218965) Eric W. Greene / Microsoft Virtual Academy
+* [React 完整入门指南 - React, Webpack, Babel, Redux, React Router, SSR](https://btholt.github.io/complete-intro-to-react/) Brian Holt(@holtbt) for Frontend Masters worshop
 * [书籍](#书籍)
 
 # 历史
@@ -108,8 +109,8 @@
 * Declarative
 * Functional / Immutable friendly
 
-
 **Is it fast?**
+
 * [Is React.js fast? Faster than {framework}? … or are there more relevant questions to be asking?](https://medium.com/react-weekly/is-react-js-fast-faster-than-framework-or-are-there-more-relevant-questions-to-be-asking-bcf40211f89b#.ll2aubhbi) Jeff Barczewski @jeffbski
 
 **What so good about React?**
