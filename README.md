@@ -11,8 +11,8 @@
 
 ## 目录
 
-- [入门](#start)
-- [历史](#history)
+- [入门](#入门)
+- [历史](#历史)
 - [创建 React 项目](#creating-a-react-project)
 - [为什么使用 React?](#why-use-react)
 - [JSX](#jsx)
@@ -58,14 +58,14 @@
 - [A11Y](#a11y)
 - [讨论](#talks)
 - [练习](#training)
-- [书籍](#books)
+- [书籍](#书籍)
 - [Newsletters](#newsletters)
 - [Interview Questions](#interview-questions)
 - [工具](#tools)
 
 # 入门
 
-**I don't know React what should I watch / read before I start?**
+**零基础，之前没有听说过 React?**
 * [Official React Docs](https://facebook.github.io/react/docs/hello-world.html)
 * [Thinking in React - Pete Hunt](https://facebook.github.io/react/docs/thinking-in-react.html)
 * [Pete Hunt: React: Rethinking best practices (JSConf EU 2013)](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
@@ -74,15 +74,16 @@
 * [React in 7 Minutes](https://egghead.io/lessons/react-react-in-7-minutes) this is a slightly dated but still really good starter
 * [Introduction to React](https://mva.microsoft.com/en-US/training-courses/introduction-to-react-16635?l=4wrKgdJrC_206218965) Eric W. Greene / Microsoft Virtual Academy
 * [Complete Intro to React - React, Webpack, Babel, Redux, React Router, SSR](https://btholt.github.io/complete-intro-to-react/) Brian Holt(@holtbt) for Frontend Masters worshop
-* [Books](#books)
+* [书籍](#书籍)
 
-#History
+# 历史
+
 * [JSConfUS 2013 - Tom Occhino and Jordan Walke: JS Apps at Facebook](https://www.youtube.com/watch?v=GW0rj4sNH2w&index=10&list=PL37ZVnwpeshF7AHpbZt33aW0brYJyNftx) The one where React became #OSS
 * [Our First 50,000 Stars](https://facebook.github.io/react/blog/2016/09/28/our-first-50000-stars.html) Vjeux @vjeux
 
-#Creating a React Project
+# 创建 React 项目
 
-**How do I create a new React project?**
+**怎么创建一个新的 React 项目?**
 
 * 💯 [create-react-app](https://github.com/facebookincubator/create-react-app)
 * [nwb](https://github.com/insin/nwb) if you need more control of the setup / config
@@ -91,7 +92,6 @@
 
 [React Create App + Express](https://www.youtube.com/watch?v=gbVhmaW04bc&feature=youtu.be) @sprjrx @ladyleet
 
-
 **Can I play around with React Online?**
 
 * [extends React.Component style](http://codepen.io/Arney/pen/OXYqWb)
@@ -99,7 +99,7 @@
 * [React JSBin](http://react.jsbin.com/?html,css,js,output)
 * [WebpackBin](http://www.webpackbin.com/EkscblgMM)
 
-#Why use React?
+# 为什么使用 React?
 
 >
 * Composable components
