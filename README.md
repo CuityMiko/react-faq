@@ -1,68 +1,69 @@
 # React FAQ
 
-This guide aims to pull together quality content about React core concepts into a central location for quick reference.
+本指南的目的是把关于 React 核心概念的优质内容集中起来，以便快速参考。
 
-Remember we're all learning.  Read, Try, Mess Up (it's okay).
+请保持学习的心态。 阅读，尝试，搞乱（没关系）。
 
-### Other Languages
-[🇪🇸 Español](https://github.com/xDae/react-faq)
+### 其它语言
 
-## Contents
+- [🇪🇸 Español](https://github.com/xDae/react-faq)
+- [🇬🇧 English](https://github.com/timarney/react-faq)
 
-- [Start](#start)
-- [History](#history)
-- [Creating a React Project](#creating-a-react-project)
-- [Why use React?](#why-use-react)
+## 目录
+
+- [入门](#start)
+- [历史](#history)
+- [创建 React 项目](#creating-a-react-project)
+- [为什么使用 React?](#why-use-react)
 - [JSX](#jsx)
-- [The Virtual DOM](#the-virtual-dom)
+- [虚拟 DOM](#the-virtual-dom)
 - [React elements](#react-elements)
-- [Components](#components)
-- [Lifecycle Methods](#lifecycle-methods)
-- [Component Types](#component-types)
-- [Finding Components](#finding-components)
+- [组件](#components)
+- [方法生命周期](#lifecycle-methods)
+- [组件类型](#component-types)
+- [查找组件](#finding-components)
 - [Props](#props)
 - [PropTypes](#proptypes)
-- [State](#state)
+- [状态](#state)
 - [Children API](#children-api)
-- [Binding](#binding)
-- [Events](#events)
+- [绑定](#binding)
+- [事件](#events)
 - [Rendering](#rendering)
 - [Keys](#keys)
 - [Refs](#refs)
-- [Context](#context)
-- [Forms](#forms)
+- [上下文](#context)
+- [表单](#forms)
 - [Controlled Components](#controlled-components)
 - [React Ajax](#react-ajax)
-- [Patterns](#patterns)
+- [模式](#patterns)
 - [Gotchas](#gotchas)
 - [PATENTS](#patents)
 - [Mixins](#mixins)
-- [Internationalization](#internationalization)
-- [Performance](#performance)
-- [Animations](#animations)
+- [国际化](#internationalization)
+- [性能](#performance)
+- [动画](#animations)
 - [SVG & React](#svg--react)
 - [React Style Guides](#react-style-guides)
-- [Redux and Mobx](#redux-and-mobx)
-- [Adding React to an existing app](#adding-react-to-an-existing-app)
-- [CSS and React](#css-and-react)
-- [Testing](#testing)
-- [Conference Videos](#conference-videos)
-- [Contributing to React JS](#contributing-to-react-js)
-- [Core Notes](#core-notes)
-- [Universal React](#universal-react)
+- [Redux 和 Mobx](#redux-and-mobx)
+- [将 React 添加到现有项目中](#adding-react-to-an-existing-app)
+- [CSS 和 React](#css-and-react)
+- [测试](#testing)
+- [讨论/会议视频](#conference-videos)
+- [为 React JS 贡献代码](#contributing-to-react-js)
+- [核心注释](#core-notes)
+- [通用的 React](#universal-react)
 - [Deep Dive](#deep-dive)
 - [React Fiber](#react-fiber)
-- [Video Courses](#video-courses)
+- [视频课程](#video-courses)
 - [A11Y](#a11y)
-- [Talks](#talks)
-- [Training](#training)
-- [Books](#books)
+- [讨论](#talks)
+- [练习](#training)
+- [书籍](#books)
 - [Newsletters](#newsletters)
 - [Interview Questions](#interview-questions)
-- [Tools](#tools)
+- [工具](#tools)
 
-
-#Start
+# 入门
 
 **I don't know React what should I watch / read before I start?**
 * [Official React Docs](https://facebook.github.io/react/docs/hello-world.html)
