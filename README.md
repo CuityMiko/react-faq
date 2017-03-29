@@ -4,6 +4,10 @@
 
 请保持学习的心态。 阅读，尝试，乱搞（没关系）。
 
+### 加群交流
+
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=5bb94ead7bfe4f7d766d13702e2178f8f94e1d3941532fcae49c764496d3d919"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="React技术交流群" title="React技术交流群"></a>
+
 ### 其它语言
 
 - [🇪🇸 Español](https://github.com/xDae/react-faq)
